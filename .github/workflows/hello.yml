@@ -3,8 +3,8 @@ name: Hola Mundo
 on: workflow_dispatch
 
 jobs:
-  say-hello_
+  say-hello:
   runs-on: ubuntu-latest
   steps:
-    -name: Saludar
+    - name: Saludar
     run: echo "Hola, GitHub Actions!!"
